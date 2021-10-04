@@ -1,0 +1,27 @@
+{
+  "name": {
+    "en": "Nexa Door Sensor ZDS-102"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_contact",
+    "alarm_tamper",
+    "measure_battery"
+  ],
+  "zwave" : {
+    "manufacturerId": [
+      608
+    ],
+    "productTypeId": [
+      360
+    ],
+    "productId": [
+      360
+    ]
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  }
+}

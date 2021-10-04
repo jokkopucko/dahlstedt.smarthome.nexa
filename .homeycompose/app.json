@@ -1,0 +1,25 @@
+{
+  "id": "dahlstedt.smarthome.nexa",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Nexa Devices"
+  },
+  "description": {
+    "en": "Support for a few Nexa devices I couldnt find support for elsewhere"
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Joakim Dahlstedt",
+    "email": "joakim.dahlstedt@gmail.com"
+  }
+}

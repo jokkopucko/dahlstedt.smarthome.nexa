@@ -1,0 +1,19 @@
+{
+  "name": "dahlstedt.smarthome.nexa",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "homey-zwavedriver": "^2.1.6",
+    "source-map-support": "^0.5.20"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^0.2.2",
+    "@types/node": "^16.10.2",
+    "@types/source-map-support": "^0.5.4",
+    "typescript": "^4.4.3"
+  }
+}
