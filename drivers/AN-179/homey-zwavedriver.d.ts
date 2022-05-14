@@ -8,6 +8,8 @@ declare module 'homey-zwavedriver' {
         registerCapabilityListener(name: string, fn: (boolean) => void);
         registerReportListener(string, string, fn: (x: any, y: any) => void);
         setCapabilityValue(string, boolean);
+        enableDebug(): void;
+        printNode(): void;
     }
 
 };
